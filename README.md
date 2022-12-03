@@ -1,0 +1,1 @@
+# Python thinking in types 
