@@ -106,3 +106,10 @@ class Dino(Animal):
 di1 = Dino(name="Dino one", age=100, num_legs=2, breed="Dino breed")
 print(di1)
 di1.talk()
+
+# ===============================================================================
+# Checking if a class inherites from another or not
+
+print(isinstance(d1, Animal))
+print(isinstance(c1, Animal))
+print(isinstance(di1, Animal))

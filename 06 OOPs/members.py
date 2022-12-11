@@ -13,6 +13,7 @@ class Box:
     color = "Brown"
 
     def __init__(self, side_a: int, side_b: int) -> None:
+        # instance variable
         self.side_a = side_a
         self.side_b = side_b
 
