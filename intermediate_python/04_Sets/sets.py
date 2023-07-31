@@ -36,3 +36,5 @@ sB = {1, 2, 12, 13, 14, 15, 16}
 
 diff = sA.difference(sB)
 print(diff)
+
+sA.update

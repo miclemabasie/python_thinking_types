@@ -19,17 +19,7 @@ mylist.insert(1, "mangoes")
 
 # remove the last item and returns it
 mangoes = mylist.pop("mangoes")
-
-# remove a specifi element
-mylist.remove("lemmon")
-
-# remove all elements from the list
-mylist.clear()
-
-# reverse the lsit
-mylist.reverse()
-
-# sort the list
+                      
 mylist.sort() # sorts in place -> changes the original list
 
 newList = sorted(mylist) # Does not modify the original list
