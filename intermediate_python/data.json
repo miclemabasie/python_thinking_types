@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "resume": "BD492B259B7C101EC5D5022F",
+        "template": "589258CE063A20C771D7"
+    },
+    "personal": {
+        "firstname": "Mice",
+        "lastname": "Abasie",
+        "address": "Mancho|Bamenda",
+        "date_of_birth": "1999-02-02",
+        "headline": "This is my headline",
+        "about": "am a very cool but sometimes boring guy!",
+        "email": "mice@mail.com",
+        "phone": "67000000"
+    },
+    "cover_photo": "RESUME-EB3FEE40C8E3C4E7795F6521.png",
+    "education": {
+        "UU-1691142300756": {
+            "education": "Advance Level",
+            "school": "GTHS Wum",
+            "start_date": "2009-02-09",
+            "end_date": "2017-01-20",
+            "city": "Wum",
+            "present": "",
+            "description": "Advance level in Civil Engineering"
+        }
+    },
+    "experience": {
+        "UU-1691142300757": {
+            "position": "Test Developer",
+            "employer": "Solix",
+            "start_date": "2020-01-01",
+            "end_date": "2022-01-01",
+            "city": "Nairobi",
+            "description": "Worked as a test engineer for the solix developer group"
+        }
+    },
+    "social": {
+        "UU-1691142300759": {
+            "social": "Twitter",
+            "handle": "www.twitter.com/miclemabasie"
+        }
+    },
+    "skill": {
+        "UU-1691142300759": {
+            "skill": "C programmine",
+            "proficiency": "20"
+        },
+        "UU-1691143065849": {
+            "skill": "Javascript Programming",
+            "proficiency": "40"
+        },
+        "UU-1691143077780": {
+            "skill": "Python Programming",
+            "proficiency": "60"
+        },
+        "UU-1691143103865": {
+            "skill": "Hardware Maintenance",
+            "proficiency": "60"
+        },
+        "UU-1691143118078": {
+            "skill": "C++ programming",
+            "proficiency": "20"
+        }
+    },
+    "language": {
+        "UU-1691142300758": {
+            "language": "English ",
+            "proficiency": "60"
+        },
+        "UU-1691143154385": {
+            "language": "French",
+            "proficiency": "20"
+        }
+    },
+    "hobby": {
+        "UU-1691142300759": "Music",
+        "UU-1691143170673": "Girls"
+    }
+}
