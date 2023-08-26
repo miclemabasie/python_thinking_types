@@ -1,0 +1,13 @@
+Process: an instance of a program (firefox, vlc, chrome)
+
++ Takes advantage of multiple CPUs and cores
++ Sperate memory space -> Memory is not shared amongs processes
++ Great for CPU bound Tasks
++ New process is started independently from other processes
++ Processes are interuptible/killable
++ One GIL for each process -> Avoid GIL limitations
+
+- Heaviwieght
+- Sarting a process is slower than starting a thread
+- More memory
+- IPC (inter-process communication) is more complicated

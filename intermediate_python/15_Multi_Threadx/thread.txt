@@ -1,0 +1,13 @@
+Threads: An entity within a process that can be scheduled for execution (also known as a lightwieght procss)
+
+A thread process can spawn multiple threads
+
++ All threads within a process share the same memory
++ Lightwieght
++ Starting a thread is fater than starting a process
++ Great for I/O bound task
+
+- Threading is limited by the GIL: only one thread can be ran at a time in python
+- No effect fo CPU bound task
+- Not interuptible or killable
+- Careful with race conditions

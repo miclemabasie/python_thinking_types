@@ -50,5 +50,23 @@ def firstgen(n):
 l = firstn(100000)  # [0, 1, 2, 3, 4]
 g = firstgen(100000)
 
-print(sys.getsizeof(l))  # 800984kb
-print(sys.getsizeof(2))  # 28kb
+# print(sys.getsizeof(l))  # 800984kb
+# print(sys.getsizeof(2))  # 28kb
+
+
+# Generator function to calculate fib sequence
+
+# fib = 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+
+
+def fib(n):
+    a, b = 0, 1
+    while a < n:
+        yield a
+        a, b = b, a + b
+
+
+g = fib(100000)
+
+for i in range(20):
+    print(next(g))
